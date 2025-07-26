@@ -6,10 +6,8 @@ import zipfile
 
 # Create base structure
 base_path = Path("/mnt/data/M-DR-Lab.github.io")
-folders = [
-    "assets/css",
-    "assets/img",
-    "assets/js"
+folders = [<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a1a15ceb-cdbe-497e-af98-aceb3176c6fb" />
+
 ]
 files = {
     "index.html": """
