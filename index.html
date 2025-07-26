@@ -1,38 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>M-DR Laboratory - Home</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background-color: #005b96;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-box {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-box img {
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    .logo-text h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .logo-text h3 {
+      margin: 0;
+      font-weight: normal;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: #004578;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 1rem 1.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background-color: #003b66;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #005b96;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+      padding: 2rem 0;
+      border-top: 1px solid #ccc;
+      margin-top: 4rem;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <header style="display: flex; align-items: center; gap: 20px;">
-  <img src="M-DR LOGO.png" alt="M-DR Lab Logo" style="height: 140px;">
-  <div>
-    <h1>M-DR Lab</h1>
-    <h3>Marine Mechanical Dynamics and Reliability Laboratory</h3>
-  </div>
-</header>
+  <header>
+    <div class="logo-box">
+      <img src="mdr-logo.png" alt="M-DR Lab Logo">
+      <div class="logo-text">
+        <h1>M-DR Lab</h1>
+        <h3>Marine Mechanical Dynamics and Reliability Laboratory</h3>
+      </div>
+    </div>
+  </header>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="team.html">Team</a>
-      <a href="research.html">Research</a>
-      <a href="projects.html">Projects</a>
-      <a href="join.html">Join</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <main>
-      <section>
-        <h2>Home Page</h2>
-        <p>This is the home page of the M-DR Laboratory website.</p>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2025 M-DR Laboratory. All rights reserved.</p>
-    </footer>
-  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="join.html">Join</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Welcome to M-DR Laboratory</h2>
+      <p>
+        The M-DR Lab focuses on the dynamics, durability, and reliability of marine mechanical systems, including advanced propulsion, intelligent O&M, friction-lubrication technology, and safety-critical transport equipment.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Areas</h2>
+      <ul>
+        <li>Ship propulsion and mechanical transmission systems</li>
+        <li>Intelligent operation and maintenance (O&M) of marine equipment</li>
+        <li>Friction, lubrication, and reliability of mechanical systems</li>
+        <li>Smart technologies for dredging, deep sea mining, and ship lifts</li>
+        <li>Oil and gas storage, transportation, and safety risk assessment</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Research Subjects</h2>
+      <ul>
+        <li>Sensor Monitoring Systems</li>
+        <li>Dredging Vessels and Equipment</li>
+        <li>Pipeline Transportation Systems</li>
+        <li>Marine Shafting Systems</li>
+        <li>Gearboxes</li>
+        <li>Centrifugal Pumps</li>
+        <li>LNG/LPG Cargo Tanks</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 M-DR Laboratory. All rights reserved.</p>
+  </footer>
 </body>
 </html>
