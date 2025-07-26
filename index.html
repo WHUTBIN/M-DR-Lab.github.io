@@ -4,56 +4,120 @@
   <meta charset="UTF-8">
   <title>M-DR Laboratory</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      padding: 1rem 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header div {
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      height: 80px;
+      margin-right: 20px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 12px;
+      text-decoration: none;
+      color: #005b96;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-top: 2rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div style="display:flex; align-items:center;">
-      <img src="assets/img/M-DR LOGO.png" alt="M-DR Lab Logo" height="80" style="margin-right:20px;">
+  <div class="container">
+    <header>
       <div>
-        <h1>M-DR Lab</h1>
-        <h3>Marine Mechanical Dynamics and Reliability Laboratory</h3>
+        <img src="assets/img/M-DR%20LOGO.png" alt="M-DR Lab Logo">
+        <div>
+          <h1>M-DR Lab</h1>
+          <h3>Marine Mechanical Dynamics and Reliability Laboratory</h3>
+        </div>
       </div>
-    </div>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
-      <a href="team.html">Team</a> |
-      <a href="research.html">Research</a> |
-      <a href="projects.html">Projects</a> |
-      <a href="join.html">Join</a> |
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Welcome to M-DR Lab</h2>
-      <p>We focus on the dynamics, durability, and reliability of marine mechanical systems.</p>
-    </section>
-    <section>
-      <h2>Research Areas</h2>
-      <ul>
-        <li>Ship propulsion and mechanical transmission systems</li>
-        <li>Intelligent operation and maintenance (O&M) of marine equipment</li>
-        <li>Friction, lubrication, and reliability of mechanical systems</li>
-        <li>Smart technologies for dredging, deep sea mining, and ship lifts</li>
-        <li>Oil and gas storage, transportation, and safety risk assessment</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Research Subjects</h2>
-      <ol>
-        <li>Sensor Monitoring Systems</li>
-        <li>Dredging Vessels and Equipment</li>
-        <li>Pipeline Transportation Systems</li>
-        <li>Marine Shafting Systems</li>
-        <li>Gearboxes</li>
-        <li>Centrifugal Pumps</li>
-        <li>LNG/LPG Cargo Tanks</li>
-      </ol>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 M-DR Laboratory. All rights reserved.</p>
-  </footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="join.html">Join</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome to M-DR Lab</h2>
+        <p>We focus on the dynamics, durability, and reliability of marine mechanical systems.</p>
+      </section>
+
+      <section>
+        <h2>Research Areas</h2>
+        <ul>
+          <li>Ship propulsion and mechanical transmission systems</li>
+          <li>Intelligent operation and maintenance (O&M) of marine equipment</li>
+          <li>Friction, lubrication, and reliability of mechanical systems</li>
+          <li>Smart technologies for dredging, deep sea mining, and ship lifts</li>
+          <li>Oil and gas storage, transportation, and safety risk assessment</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Research Subjects</h2>
+        <ol>
+          <li>Sensor Monitoring Systems</li>
+          <li>Dredging Vessels and Equipment</li>
+          <li>Pipeline Transportation Systems</li>
+          <li>Marine Shafting Systems</li>
+          <li>Gearboxes</li>
+          <li>Centrifugal Pumps</li>
+          <li>LNG/LPG Cargo Tanks</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 M-DR Laboratory. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
