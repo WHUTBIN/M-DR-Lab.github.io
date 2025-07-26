@@ -1,3 +1,7 @@
+/* 基础字体和背景设置 */
+html {
+  font-size: 100%; /* 默认 16px，便于 rem 计算 */
+}
 
 body {
   font-family: "Segoe UI", sans-serif;
@@ -6,21 +10,24 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-size: 1rem; /* 自适应字体 */
 }
 
+/* 页面容器居中 */
 .container {
-  max-width: 1100px;     /* 控制页面最大宽度 */
-  margin: 0 auto;         /* 居中显示 */
-  padding: 20px;          /* 页面内边距 */
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-
+/* 页眉 */
 header {
   background-color: #005b96;
   color: #fff;
   padding: 1rem 0;
+  text-align: center;
 }
 
 header h1 {
@@ -28,6 +35,22 @@ header h1 {
   font-size: 2rem;
 }
 
+header h3 {
+  margin: 0.3rem 0 0;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+/* LOGO 图像控制 */
+header img {
+  max-height: 80px;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 导航栏 */
 nav {
   margin-top: 10px;
   background-color: #004d80;
@@ -40,16 +63,37 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+/* 主体部分 */
+main {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  padding: 20px;
+}
+
+/* 标题和段落 */
 section {
   margin-top: 2rem;
 }
 
+section h2 {
+  font-size: 1.5rem;
+  color: #005b96;
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  margin-top: 0.5rem;
+}
+
+/* 页脚 */
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -58,10 +102,28 @@ footer {
   padding: 1rem;
   border-top: 1px solid #ccc;
 }
-main {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  padding: 20px;
-}
 
+/* 响应式设计 */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
+
+  main {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 1.3rem;
+  }
+}
