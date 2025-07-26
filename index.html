@@ -11,6 +11,7 @@
       padding: 0;
       background-color: #ffffff;
       color: #222;
+      font-size: 18px;
     }
 
     .container {
@@ -24,13 +25,14 @@
       border-bottom: 1px solid #ccc;
     }
 
-    header div {
+    header .logo-title {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
     }
 
     header img {
-      height: 80px;
+      height: 100px;
       margin-right: 20px;
     }
 
@@ -66,8 +68,8 @@
 <body>
   <div class="container">
     <header>
-      <div>
-        <img src="assets/img/M-DR LOGO.png" alt="M-DR Lab Logo">
+      <div class="logo-title">
+        <img src="M-DR LOGO.png" alt="M-DR Lab Logo">
         <div>
           <h1>M-DR Lab</h1>
           <h3>Marine Mechanical Dynamics and Reliability Laboratory</h3>
